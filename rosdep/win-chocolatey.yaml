@@ -1,0 +1,339 @@
+abseil:
+  windows: [abseil]
+apr:
+  windows: []
+assimp:
+  windows: [assimp]
+assimp-dev:
+  windows: [assimp]
+boost:
+  windows: [boost]
+bullet:
+  windows: [bullet3]
+bzip2:
+  windows: [bzip2]
+cmake:
+  windows: [ros-cmake]
+ceres-solver:
+  windows: [ceres, suitesparse, clapack, openblas, metis]
+cppunit:
+  windows: [cppunit]
+curl:
+  windows: [libcurl]
+eigen:
+  windows: [eigen]
+gazebo:
+  windows: [gazebo9]
+gazebo9:
+  windows: [gazebo9]
+glut:
+  windows: [freeglut]
+google-mock:
+  windows: [google-mock]
+graphviz:
+  windows: [libgraphviz]
+graphviz-dev:
+  windows: [libgraphviz]
+gtest:
+  windows: [google-test]
+gtk2:
+  windows: [gtk2]
+gtk3:
+  windows:
+    chocolatey:
+      depends: [libpng-dev, bzip2, zlib]
+      packages: [gtk3]
+libazure-iot-sdk-c:
+  windows: [libazure-iot-sdk-c]
+libcairo2-dev:
+  windows: [cairo]
+libccd-dev:
+  windows: [libccd]
+libceres-dev:
+  windows: [ceres]
+libconsole-bridge-dev:
+  windows: [console_bridge]
+libfcl-dev:
+  windows:
+    chocolatey:
+      depends: [libccd-dev]
+      packages: [libfcl]
+libflann:
+  windows: [libflann]
+libflann-dev:
+  windows: [libflann]
+libgazebo9-dev:
+  windows: [gazebo9]
+libgflags-dev:
+  windows: [gflags]
+libglew-dev:
+  windows: [libglew]
+libgoogle-glog-dev:
+  windows: [glog]
+libgpgme-dev:
+  windows: []
+libjpeg:
+  windows: [libjpeg-turbo]
+libogg:
+  windows: [libogg]
+libogre-dev:
+  windows: [ogre]
+libopencv-dev:
+  windows: [libopencv]
+libopenni-dev:
+  windows: [OpenNI]
+libopenni2-dev:
+  windows: [OpenNI2]
+libpcl-all:
+  windows:
+    chocolatey:
+      depends: [libflann]
+      packages: [libpcl]
+libpcl-all-dev:
+  windows:
+    chocolatey:
+      depends: [libflann]
+      packages: [libpcl]
+libpng-dev:
+  windows:
+    chocolatey:
+      depends: [zlib]
+      packages: [libpng]
+libpoco-dev:
+  windows: [poco]
+libqglviewer-qt4:
+  windows: [libqglviewer]
+libqglviewer-qt4-dev:
+  windows: [libqglviewer]
+libqhull:
+  windows: [libqhull]
+libqt4:
+  windows: [qt5-sdk]
+libqt4-dev:
+  windows: [qt5-sdk]
+libqt4-opengl:
+  windows: [qt5-sdk]
+libqt4-opengl-dev:
+  windows: [qt5-sdk]
+libqt4-sql-psql:
+  windows: [qt5-sdk]
+libqt5-concurrent:
+  windows: [qt5-sdk]
+libqt5-core:
+  windows: [qt5-sdk]
+libqt5-gui:
+  windows: [qt5-sdk]
+libqt5-network:
+  windows: [qt5-sdk]
+libqt5-opengl:
+  windows: [qt5-sdk]
+libqt5-opengl-dev:
+  windows: [qt5-sdk]
+libqt5-widgets:
+  windows: [qt5-sdk]
+libssl-dev:
+  windows: [openssl]
+libtheora:
+  windows: [libtheora]
+liburdfdom-dev:
+  windows: [urdfdom]
+liburdfdom-headers-dev:
+  windows: [urdfdom_headers]
+log4cxx:
+  windows: [log4cxx]
+lua5.2-dev:
+  windows: [lua]
+lz4:
+  windows: [lz4]
+octomap:
+  windows:
+    chocolatey:
+      depends: [libqglviewer-qt4]
+      packages: [octomap]
+ompl:
+  windows: [libompl]
+opencv3:
+  windows:
+    chocolatey:
+      depends: [libopencv-dev, python-opencv]
+opengl:
+  windows: []
+pkg-config:
+  windows: [pkg-config]
+protobuf:
+  windows: [protobuf]
+protobuf-dev:
+  windows: [protobuf]
+python:
+  windows: []
+python-argparse:
+  windows:
+    pip:
+      packages: [argparse]
+python-azure-iothub-device-client:
+  windows:
+    pip:
+      packages: [azure-iothub-device-client]
+python-backports.ssl-match-hostname:
+  windows:
+    pip:
+      packages: [backports.ssl_match_hostname]
+python-bson:
+  windows:
+    pip:
+      packages: [bson, pymongo]
+python-catkin-pkg:
+  windows:
+    pip:
+      packages: [catkin_pkg]
+python-coverage:
+  windows:
+    pip:
+      packages: [coverage]
+python-crypto:
+  windows:
+    pip:
+      depends: [vcpython]
+      packages: [pycrypto]
+python-dateutil:
+  windows:
+    pip:
+      packages: [python-dateutil]
+python-defusedxml:
+  windows:
+    pip:
+      packages: [defusedxml]
+python-empy:
+  windows:
+    pip:
+      packages: [empy]
+python-gnupg:
+  windows:
+    pip:
+      depends: [python-psutil]
+      packages: [gnupg]
+python-imaging:
+  windows:
+    pip:
+      packages: [pillow]
+python-lxml:
+  windows:
+    pip:
+      packages: [lxml]
+python-matplotlib:
+  windows:
+    pip:
+      packages: [matplotlib]
+python-mock:
+  windows:
+    pip:
+      packages: [mock]
+python-netifaces:
+  windows:
+    pip:
+      depends: [vcpython]
+      packages: [netifaces]
+python-nose:
+  windows:
+    pip:
+      packages: [nose]
+python-numpy:
+  windows:
+    pip:
+      packages: [numpy]
+python-opencv:
+  windows:
+    pip:
+      packages: [opencv-python]
+python-opengl:
+  windows:
+    pip:
+      packages: [PyOpenGL]
+python-paramiko:
+  windows:
+    pip:
+      packages: [paramiko]
+python-psutil:
+  windows:
+    pip:
+      packages: [psutil]
+python-pyassimp:
+  windows:
+    pip:
+      packages: [pyassimp]
+python-pydot:
+  windows:
+    pip:
+      packages: [pydot]
+python-qt5-bindings:
+  windows:
+    chocolatey:
+      depends: [qtbase5-dev]
+      packages: [pyqt5, sip, pyside2]
+python-rosdep:
+  windows:
+    pip:
+      packages: [rosdep]
+python-rospkg:
+  windows:
+    pip:
+      packages: [rospkg]
+python-serial:
+  windows:
+    pip:
+      packages: [pyserial]
+python-sip:
+  windows: [sip]
+python-sphinx:
+  windows:
+    pip:
+      packages: [Sphinx]
+python-tornado:
+  windows:
+    pip:
+      packages: [tornado]
+python-twisted-core:
+  windows:
+    pip:
+      packages: [Twisted]
+python-wstool:
+  windows: [wstool]
+python-wxtools:
+  windows:
+    pip:
+      package: [wxPython]
+python-yaml:
+  windows:
+    pip:
+      depends: [yaml-cpp]
+      packages: [PyYAML]
+qt5-qmake:
+  windows: [qt5-sdk]
+qtbase5-dev:
+  windows: [qt5-sdk]
+rsync:
+  windows: []
+sbcl:
+  windows: [sbcl]
+sdl:
+  windows: [sdl]
+sdl-image:
+  windows: [sdl_image]
+suitesparse:
+  windows: [suitesparse]
+tinyxml:
+  windows: [tinyxml]
+tinyxml2:
+  windows: [tinyxml2]
+uuid:
+  windows: []
+vcpython:
+  windows: [vcpython27]
+wxpython:
+  windows:
+    pip:
+      package: [wxPython]
+yaml-cpp:
+  windows: [yaml-cpp]
+zlib:
+  windows: [zlib]

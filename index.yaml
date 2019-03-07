@@ -32,6 +32,6 @@ distributions:
     distribution_cache: http://repositories.ros.org/rosdistro_cache/lunar-cache.yaml.gz
   melodic:
     distribution: [melodic/distribution.yaml]
-    distribution_cache: http://repositories.ros.org/rosdistro_cache/melodic-cache.yaml.gz
+    distribution_cache: https://raw.githubusercontent.com/ms-iot/rosdistro-db/init_windows/rosdistro_cache/melodic-cache.yaml.gz
 type: index
 version: 3
