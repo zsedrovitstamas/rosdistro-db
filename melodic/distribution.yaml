@@ -5837,8 +5837,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ms-iot/rqt_rviz.git
-      version: init_windows
+      url: https://github.com/ros-visualization/rqt_rviz.git
+      version: lunar-devel
     status: maintained
   rqt_service_caller:
     doc:
@@ -5989,8 +5989,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ms-iot/rviz.git
-      version: init_windows
+      url: https://github.com/ros-visualization/rviz.git
+      version: melodic-devel
     status: maintained
   rviz_visual_tools:
     doc:
