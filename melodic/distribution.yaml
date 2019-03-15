@@ -4320,8 +4320,8 @@ repositories:
       version: 0.3.4-0
     source:
       type: git
-      url: https://github.com/ms-iot/python_qt_binding.git
-      version: init_windows
+      url: https://github.com/ros-visualization/python_qt_binding.git
+      version: kinetic-devel
     status: maintained
   qb_chain:
     doc:
