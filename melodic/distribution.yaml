@@ -316,8 +316,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ms-iot/bond_core.git
-      version: init_windows
+      url: https://github.com/ros/bond_core.git
+      version: kinetic-devel
     status: maintained
   brics_actuator:
     doc:
@@ -773,8 +773,8 @@ repositories:
       version: 1.9.3-0
     source:
       type: git
-      url: https://github.com/ms-iot/diagnostics.git
-      version: init_windows
+      url: https://github.com/ros/diagnostics.git
+      version: indigo-devel
     status: maintained
   dynamic_reconfigure:
     doc:
@@ -1553,8 +1553,8 @@ repositories:
       version: 0.6.1-0
     source:
       type: git
-      url: https://github.com/ms-iot/geometric_shapes.git
-      version: init_windows
+      url: https://github.com/ros-planning/geometric_shapes.git
+      version: melodic-devel
     status: maintained
   geometry:
     doc:
@@ -4427,8 +4427,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ms-iot/qt_gui_core.git
-      version: init_windows
+      url: https://github.com/ros-visualization/qt_gui_core.git
+      version: kinetic-devel
     status: maintained
   qt_metapackages:
     release:
@@ -4503,8 +4503,8 @@ repositories:
       version: 0.3.2-0
     source:
       type: git
-      url: https://github.com/ms-iot/random_numbers.git
-      version: init_windows
+      url: https://github.com/ros-planning/random_numbers.git
+      version: master
     status: maintained
   raspimouse_sim:
     doc:
@@ -4823,8 +4823,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ms-iot/ros.git
-      version: init_windows
+      url: https://github.com/ros/ros.git
+      version: kinetic-devel
     status: maintained
   ros_canopen:
     doc:
@@ -5445,8 +5445,8 @@ repositories:
       version: 0.5.0-0
     source:
       type: git
-      url: https://github.com/ms-iot/rqt.git
-      version: init_windows
+      url: https://github.com/ros-visualization/rqt.git
+      version: kinetic-devel
     status: maintained
   rqt_action:
     doc:
