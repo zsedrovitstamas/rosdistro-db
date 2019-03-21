@@ -265,6 +265,10 @@ python-pydot:
   windows:
     pip:
       packages: [pydot]
+python-pymodbus:
+  windows:
+    pip:
+      packages: [pymodbus]
 python-qt5-bindings:
   windows:
     chocolatey:
