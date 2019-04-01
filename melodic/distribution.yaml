@@ -479,8 +479,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ms-iot/class_loader.git
-      version: init_windows
+      url: https://github.com/ros/class_loader.git
+      version: melodic-devel
     status: maintained
   cmake_modules:
     doc:
@@ -3374,8 +3374,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ms-iot/nodelet_core.git
-      version: init_windows
+      url: https://github.com/ros/nodelet_core.git
+      version: indigo-devel
     status: maintained
   novatel_gps_driver:
     doc:
