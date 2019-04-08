@@ -41,7 +41,7 @@ gtk2:
 gtk3:
   windows:
     chocolatey:
-      depends: [libpng-dev, bzip2, zlib]
+      depends: [libpng-dev, bzip2]
       packages: [gtk3]
 libazure-iot-sdk-c:
   windows: [libazure-iot-sdk-c]
