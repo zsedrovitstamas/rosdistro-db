@@ -1,0 +1,3 @@
+git+https://github.com/ms-iot/rosdep@init_windows_rebase_py3#egg=rosdep
+git+https://github.com/ms-iot/vcstools@init_windows#egg=vcstools
+git+https://github.com/ms-iot/wstool@init_windows#egg=wstool
