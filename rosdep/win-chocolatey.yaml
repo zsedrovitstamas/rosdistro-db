@@ -16,6 +16,8 @@ cmake:
   windows: [ros-cmake]
 ceres-solver:
   windows: [ceres, suitesparse, clapack, openblas, metis]
+cppcheck:
+  windows: [cppcheck]
 cppunit:
   windows: [cppunit]
 curl:
@@ -26,6 +28,8 @@ gazebo:
   windows: [gazebo9]
 gazebo9:
   windows: [gazebo9]
+git:
+  windows: [git]
 glut:
   windows: [freeglut]
 google-mock:
@@ -139,6 +143,8 @@ liburdfdom-dev:
   windows: [urdfdom]
 liburdfdom-headers-dev:
   windows: [urdfdom_headers]
+libzmq3-dev:
+  windows: [cppzmq]
 log4cxx:
   windows: [log4cxx]
 lua5.2-dev:
@@ -158,12 +164,22 @@ opencv3:
       depends: [libopencv-dev, python-opencv]
 opengl:
   windows: []
+openssl:
+  windows: [openssl]
 pkg-config:
   windows: [pkg-config]
 protobuf:
   windows: [protobuf]
 protobuf-dev:
   windows: [protobuf]
+pydocstyle:
+  windows:
+    pip:
+      packages: [pydocstyle]
+pyflakes3:
+  windows:
+    pip:
+      packages: [pyflakes]
 python:
   windows: []
 python-argparse:
@@ -182,6 +198,10 @@ python-bson:
   windows:
     pip:
       packages: [bson, pymongo]
+python-cairo:
+  windows:
+    pip:
+      packages: [pycairo]
 python-catkin-pkg:
   windows:
     pip:
@@ -265,6 +285,10 @@ python-pydot:
   windows:
     pip:
       packages: [pydot]
+python-pygraphviz:
+  windows:
+    pip:
+      packages: [pygraphviz]
 python-pymodbus:
   windows:
     pip:
@@ -274,6 +298,16 @@ python-qt5-bindings:
     chocolatey:
       depends: [qtbase5-dev]
       packages: [pyqt5, sip, pyside2]
+python-qt5-bindings-gl:
+  windows:
+    chocolatey:
+      depends: [python-qt5-bindings]
+      packages: []
+python-qt5-bindings-webkit:
+  windows:
+    chocolatey:
+      depends: [python-qt5-bindings]
+      packages: []
 python-rosdep:
   windows:
     pip:
@@ -305,11 +339,82 @@ python-wstool:
 python-wxtools:
   windows:
     pip:
-      package: [wxPython]
+      packages: [wxPython]
 python-yaml:
   windows:
     pip:
       depends: [yaml-cpp]
+      packages: [PyYAML]
+python3-catkin-pkg-modules:
+  windows:
+    pip:
+      packages: [catkin-pkg]
+python3-empy:
+  windows:
+    pip:
+      packages: [empy]
+python3-flake8:
+  windows:
+    pip:
+      packages: [flake8]
+python3-pygraphviz:
+  windows:
+    pip:
+      packages: [pygraphviz]
+python3-matplotlib:
+  windows:
+    pip:
+      packages: [matplotlib]
+python3-lark-parser:
+  windows:
+    pip:
+      packages: [lark-parser]
+python3-lxml:
+  windows:
+    pip:
+      packages: [lxml]
+python3-nose:
+  windows:
+    pip:
+      packages: [nose]
+python3-numpy:
+  windows:
+    pip:
+      packages: [numpy]
+python3-opencv:
+  windows:
+    pip:
+      packages: [opencv-python]
+python3-pep8:
+  windows:
+    pip:
+      packages: [pep8]
+python3-pkg-resources:
+  windows: []
+python3-psutil:
+  windows:
+    pip:
+      packages: [psutil]
+python3-pydot:
+  windows:
+    pip:
+      packages: [pydot]
+python3-pytest:
+  windows:
+    pip:
+      packages: [pytest]
+python3-qt5-bindings:
+  windows:
+    chocolatey:
+      depends: [python-qt5-bindings]
+      packages: []
+python3-setuptools:
+  windows:
+    pip:
+      packages: [setuptools]
+python3-yaml:
+  windows:
+    pip:
       packages: [PyYAML]
 qt5-qmake:
   windows: [qt5-sdk]
@@ -336,7 +441,7 @@ vcpython:
 wxpython:
   windows:
     pip:
-      package: [wxPython]
+      packages: [wxPython]
 yaml-cpp:
   windows: [yaml-cpp]
 zlib:
