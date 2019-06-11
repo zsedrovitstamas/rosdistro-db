@@ -1,0 +1,10 @@
+ftdi-eeprom:
+  windows: []
+libusb-dev:
+  windows:
+    vcpkg:
+      packages: [libusb-win32]
+libftdi-dev:
+  windows:
+    vcpkg:
+      packages: [libftdi-compat]
