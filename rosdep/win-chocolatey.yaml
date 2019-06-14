@@ -438,6 +438,8 @@ uuid:
   windows: []
 vcpython:
   windows: [vcpython27]
+vcpkg:
+  windows: [ros-vcpkg]
 wxpython:
   windows:
     pip:
