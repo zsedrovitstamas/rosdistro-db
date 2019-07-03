@@ -201,7 +201,7 @@ python-bson:
 python-cairo:
   windows:
     pip:
-      packages: [pycairo]
+      packages: []
 python-catkin-pkg:
   windows:
     pip:
@@ -288,7 +288,7 @@ python-pydot:
 python-pygraphviz:
   windows:
     pip:
-      packages: [pygraphviz]
+      packages: []
 python-pymodbus:
   windows:
     pip:
