@@ -7,4 +7,4 @@ libusb-dev:
 libftdi-dev:
   windows:
     vcpkg:
-      packages: [libftdi-compat]
+      packages: [libftdi]
