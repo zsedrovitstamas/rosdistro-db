@@ -3013,8 +3013,8 @@ repositories:
       version: 3.5.2-0
     source:
       type: git
-      url: https://github.com/ms-iot/moveit_visual_tools.git
-      version: init_windows_prep
+      url: https://github.com/ros-planning/moveit_visual_tools.git
+      version: melodic-devel
     status: developed
   mrpt1:
     release:
