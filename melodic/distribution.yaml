@@ -6004,8 +6004,8 @@ repositories:
       version: 3.7.0-0
     source:
       type: git
-      url: https://github.com/ms-iot/rviz_visual_tools.git
-      version: init_windows_prep
+      url: https://github.com/PickNikRobotics/rviz_visual_tools.git
+      version: melodic-devel
     status: developed
   sainsmart_relay_usb:
     doc:
