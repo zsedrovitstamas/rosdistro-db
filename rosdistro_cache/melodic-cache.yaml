@@ -1,13 +1,9 @@
 distribution_file:
 - release_platforms:
-    debian:
-    - stretch
-    fedora:
-    - '28'
-    ubuntu:
-    - bionic
-    windows:
-    - '10'
+    debian: [stretch]
+    fedora: ['28']
+    ubuntu: [bionic]
+    windows: ['10']
   repositories:
     abseil_cpp: {doc: {type: git, url: 'https://github.com/Eurecat/abseil-cpp.git', version: master}, release: {tags: {release: 'release/melodic/{package}/{version}'}, url: 'https://github.com/Eurecat/abseil_cpp-release.git', version: 0.2.3-1}, source: {type: git, url: 'https://github.com/ms-iot/abseil-cpp.git', version: init_windows}}
     ackermann_msgs: {doc: {type: git, url: 'https://github.com/ros-drivers/ackermann_msgs.git', version: master}, release: {tags: {release: 'release/melodic/{package}/{version}'}, url: 'https://github.com/ros-drivers-gbp/ackermann_msgs-release.git', version: 1.0.1-0}, source: {type: git, url: 'https://github.com/ros-drivers/ackermann_msgs.git', version: master}, status: maintained}
@@ -368,7 +364,7 @@ distribution_file:
     rtabmap: {doc: {type: git, url: 'https://github.com/introlab/rtabmap.git', version: melodic-devel}, release: {tags: {release: 'release/melodic/{package}/{version}'}, url: 'https://github.com/introlab/rtabmap-release.git', version: 0.17.6-0}, source: {type: git, url: 'https://github.com/introlab/rtabmap.git', version: melodic-devel}, status: maintained}
     rtabmap_ros: {doc: {type: git, url: 'https://github.com/introlab/rtabmap_ros.git', version: melodic-devel}, release: {tags: {release: 'release/melodic/{package}/{version}'}, url: 'https://github.com/introlab/rtabmap_ros-release.git', version: 0.17.6-0}, source: {type: git, url: 'https://github.com/introlab/rtabmap_ros.git', version: melodic-devel}, status: maintained}
     rviz: {doc: {type: git, url: 'https://github.com/ros-visualization/rviz.git', version: melodic-devel}, release: {tags: {release: 'release/melodic/{package}/{version}'}, url: 'https://github.com/ros-gbp/rviz-release.git', version: 1.13.1-0}, source: {test_pull_requests: true, type: git, url: 'https://github.com/ros-visualization/rviz.git', version: melodic-devel}, status: maintained}
-    rviz_visual_tools: {doc: {type: git, url: 'https://github.com/PickNikRobotics/rviz_visual_tools.git', version: melodic-devel}, release: {tags: {release: 'release/melodic/{package}/{version}'}, url: 'https://github.com/PickNikRobotics/rviz_visual_tools-release.git', version: 3.7.0-0}, source: {type: git, url: 'https://github.com/ms-iot/rviz_visual_tools.git', version: init_windows_prep}, status: developed}
+    rviz_visual_tools: {doc: {type: git, url: 'https://github.com/PickNikRobotics/rviz_visual_tools.git', version: melodic-devel}, release: {tags: {release: 'release/melodic/{package}/{version}'}, url: 'https://github.com/PickNikRobotics/rviz_visual_tools-release.git', version: 3.7.0-0}, source: {type: git, url: 'https://github.com/PickNikRobotics/rviz_visual_tools.git', version: melodic-devel}, status: developed}
     sainsmart_relay_usb: {doc: {type: hg, url: 'https://bitbucket.org/DataspeedInc/sainsmart_relay_usb', version: default}, release: {tags: {release: 'release/melodic/{package}/{version}'}, url: 'https://github.com/DataspeedInc-release/sainsmart_relay_usb-release.git', version: 0.0.2-0}, source: {type: hg, url: 'https://bitbucket.org/DataspeedInc/sainsmart_relay_usb', version: default}, status: maintained}
     sbg_driver: {doc: {type: git, url: 'https://github.com/ENSTABretagneRobotics/sbg_ros_driver.git', version: master}, release: {tags: {release: 'release/melodic/{package}/{version}'}, url: 'https://github.com/ENSTABretagneRobotics/sbg_ros_driver-release.git', version: 1.1.7-0}, source: {type: git, url: 'https://github.com/ENSTABretagneRobotics/sbg_ros_driver.git', version: master}, status: developed}
     sbpl: {release: {tags: {release: 'release/melodic/{package}/{version}'}, url: 'https://github.com/ros-gbp/sbpl-release.git', version: 1.3.1-0}}
