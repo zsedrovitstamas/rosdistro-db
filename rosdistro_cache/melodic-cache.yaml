@@ -1,9 +1,13 @@
 distribution_file:
 - release_platforms:
-    debian: [stretch]
-    fedora: ['28']
-    ubuntu: [bionic]
-    windows: ['10']
+    debian:
+    - stretch
+    fedora:
+    - '28'
+    ubuntu:
+    - bionic
+    windows:
+    - '10'
   repositories:
     abseil_cpp: {doc: {type: git, url: 'https://github.com/Eurecat/abseil-cpp.git', version: master}, release: {tags: {release: 'release/melodic/{package}/{version}'}, url: 'https://github.com/Eurecat/abseil_cpp-release.git', version: 0.2.3-1}, source: {type: git, url: 'https://github.com/ms-iot/abseil-cpp.git', version: init_windows}}
     ackermann_msgs: {doc: {type: git, url: 'https://github.com/ros-drivers/ackermann_msgs.git', version: master}, release: {tags: {release: 'release/melodic/{package}/{version}'}, url: 'https://github.com/ros-drivers-gbp/ackermann_msgs-release.git', version: 1.0.1-0}, source: {type: git, url: 'https://github.com/ros-drivers/ackermann_msgs.git', version: master}, status: maintained}
@@ -92,7 +96,7 @@ distribution_file:
     fmi_adapter: {doc: {type: git, url: 'https://github.com/boschresearch/fmi_adapter.git', version: 1.0.2}, release: {packages: [fmi_adapter, fmi_adapter_examples], tags: {release: 'release/melodic/{package}/{version}'}, url: 'https://github.com/boschresearch/fmi_adapter-release.git', version: 1.0.2-0}, source: {type: git, url: 'https://github.com/boschresearch/fmi_adapter.git', version: master}, status: maintained}
     four_wheel_steering_msgs: {doc: {type: git, url: 'https://github.com/ros-drivers/four_wheel_steering_msgs.git', version: master}, release: {tags: {release: 'release/melodic/{package}/{version}'}, url: 'https://github.com/ros-drivers-gbp/four_wheel_steering_msgs-release.git', version: 1.0.0-0}, source: {type: git, url: 'https://github.com/ros-drivers/four_wheel_steering_msgs.git', version: master}, status: maintained}
     franka_ros: {doc: {type: git, url: 'https://github.com/frankaemika/franka_ros.git', version: melodic-devel}, release: {packages: [franka_description], tags: {release: 'release/melodic/{package}/{version}'}, url: 'https://github.com/frankaemika/franka_ros-release.git', version: 0.6.0-0}, source: {type: git, url: 'https://github.com/frankaemika/franka_ros.git', version: melodic-devel}, status: developed}
-    gazebo_ros_pkgs: {doc: {type: git, url: 'https://github.com/ros-simulation/gazebo_ros_pkgs.git', version: melodic-devel}, release: {packages: [gazebo_dev, gazebo_msgs, gazebo_plugins, gazebo_ros, gazebo_ros_control, gazebo_ros_pkgs], tags: {release: 'release/melodic/{package}/{version}'}, url: 'https://github.com/ros-gbp/gazebo_ros_pkgs-release.git', version: 2.8.4-0}, source: {test_pull_requests: true, type: git, url: 'https://github.com/ms-iot/gazebo_ros_pkgs.git', version: init_windows}, status: developed}
+    gazebo_ros_pkgs: {doc: {type: git, url: 'https://github.com/ros-simulation/gazebo_ros_pkgs.git', version: melodic-devel}, release: {packages: [gazebo_dev, gazebo_msgs, gazebo_plugins, gazebo_ros, gazebo_ros_control, gazebo_ros_pkgs], tags: {release: 'release/melodic/{package}/{version}'}, url: 'https://github.com/ros-gbp/gazebo_ros_pkgs-release.git', version: 2.8.4-0}, source: {test_pull_requests: true, type: git, url: 'https://github.com/ros-simulation/gazebo_ros_pkgs.git', version: melodic-devel}, status: developed}
     gencpp: {doc: {type: git, url: 'https://github.com/ros/gencpp.git', version: indigo-devel}, release: {tags: {release: 'release/melodic/{package}/{version}'}, url: 'https://github.com/ros-gbp/gencpp-release.git', version: 0.6.1-0}, source: {type: git, url: 'https://github.com/ros/gencpp.git', version: indigo-devel}, status: maintained}
     generic_control_toolbox: {doc: {type: git, url: 'https://github.com/diogoalmeida/generic_control_toolbox.git', version: master}, source: {type: git, url: 'https://github.com/diogoalmeida/generic_control_toolbox.git', version: master}, status: maintained}
     geneus: {doc: {type: git, url: 'https://github.com/jsk-ros-pkg/geneus.git', version: master}, release: {tags: {release: 'release/melodic/{package}/{version}'}, url: 'https://github.com/tork-a/geneus-release.git', version: 2.2.6-0}, source: {type: git, url: 'https://github.com/jsk-ros-pkg/geneus.git', version: master}, status: maintained}
