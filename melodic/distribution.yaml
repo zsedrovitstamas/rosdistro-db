@@ -4144,7 +4144,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ms-iot/moveit.git
-      version: init_windows_prep
+      version: windows_fix
     status: developed
   moveit_msgs:
     doc:
@@ -7289,7 +7289,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/rospack.git
-      version: melodic-devel
+      version: lunar-devel
     status: maintained
   rosparam_handler:
     doc:
