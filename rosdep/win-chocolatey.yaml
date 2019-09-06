@@ -13,7 +13,9 @@ bullet:
 bzip2:
   windows: [bzip2]
 cmake:
-  windows: [ros-cmake]
+  windows:
+    pip:
+      packages: [cmake]
 ceres-solver:
   windows: [ceres, suitesparse, clapack, openblas, metis]
 cppcheck:
