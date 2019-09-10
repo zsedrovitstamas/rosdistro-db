@@ -8,3 +8,7 @@ libftdi-dev:
   windows:
     vcpkg:
       packages: [libftdi]
+hidapi:
+  windows:
+    vcpkg:
+      packages: [hidapi]
