@@ -203,7 +203,7 @@ python-bson:
 python-cairo:
   windows:
     pip:
-      packages: []
+      packages: [cairocffi]
 python-catkin-pkg:
   windows:
     pip:
