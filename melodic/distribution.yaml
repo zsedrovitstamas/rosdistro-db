@@ -6797,8 +6797,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ms-iot/ros_comm.git
-      version: init_windows
+      url: https://github.com/ros/ros_comm.git
+      version: melodic-devel
     status: maintained
   ros_comm_msgs:
     doc:
