@@ -6923,8 +6923,8 @@ repositories:
       version: 1.2.1-0
     source:
       type: git
-      url: https://github.com/ms-iot/ros_environment.git
-      version: init_windows
+      url: https://github.com/ros/ros_environment.git
+      version: melodic
     status: maintained
   ros_monitoring_msgs:
     doc:
