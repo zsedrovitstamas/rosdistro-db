@@ -408,8 +408,8 @@ python3-pytest:
 python3-qt5-bindings:
   windows:
     chocolatey:
-      depends: [python-qt5-bindings]
-      packages: []
+      depends: [qtbase5-dev]
+      packages: [python3-pyqt5, python3-sip]
 python3-setuptools:
   windows:
     pip:
