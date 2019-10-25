@@ -347,6 +347,8 @@ python-yaml:
     pip:
       depends: [yaml-cpp]
       packages: [PyYAML]
+python3:
+  windows: []
 python3-catkin-pkg-modules:
   windows:
     pip:
@@ -371,6 +373,10 @@ python3-flake8:
   windows:
     pip:
       packages: [flake8]
+python3-gnupg:
+  windows:
+    pip:
+      packages: [gnupg]
 python3-pygraphviz:
   windows:
     pip:
@@ -387,6 +393,10 @@ python3-lxml:
   windows:
     pip:
       packages: [lxml]
+python3-netifaces:
+  windows:
+    pip:
+      packages: [netifaces]
 python3-nose:
   windows:
     pip:
@@ -403,10 +413,18 @@ python3-opencv:
   windows:
     pip:
       packages: [opencv-python]
+python3-paramiko:
+  windows:
+    pip:
+      packages: [paramiko]
 python3-pep8:
   windows:
     pip:
       packages: [pep8]
+python3-pil:
+  windows:
+    pip:
+      packages: [pil]
 python3-pkg-resources:
   windows: []
 python3-psutil:
