@@ -81,7 +81,7 @@ libgpgme-dev:
 libjpeg:
   windows: [libjpeg-turbo]
 liblapack-dev:
-  windows: [clapack]
+  windows: [clapack, openblas]
 libogg:
   windows: [libogg]
 libogre-dev:
