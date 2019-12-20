@@ -16,3 +16,11 @@ sdl2:
   windows:
     vcpkg:
       packages: [sdl2]
+librealsense2:
+  windows:
+    vcpkg:
+      packages: [realsense2]
+suitesparse:
+  windows:
+    vcpkg:
+      packages: [suitesparse]

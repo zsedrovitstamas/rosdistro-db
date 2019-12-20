@@ -297,6 +297,10 @@ python-pymodbus:
   windows:
     pip:
       packages: [pymodbus]
+python-pyproj:
+  windows:
+    pip:
+      packages: [pyproj]
 python-qt5-bindings:
   windows:
     chocolatey:
