@@ -12,3 +12,7 @@ hidapi:
   windows:
     vcpkg:
       packages: [hidapi]
+sdl2:
+  windows:
+    vcpkg:
+      packages: [sdl2]
