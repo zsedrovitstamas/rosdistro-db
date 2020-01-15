@@ -285,6 +285,10 @@ python-pyassimp:
   windows:
     pip:
       packages: [pyassimp]
+python-pycryptodome:
+  windows:
+    pip:
+      packages: [pycryptodomex]
 python-pydot:
   windows:
     pip:
@@ -437,6 +441,10 @@ python3-psutil:
   windows:
     pip:
       packages: [psutil]
+python3-pycryptodome:
+  windows:
+    pip:
+      packages: [pycryptodomex]
 python3-pydot:
   windows:
     pip:
