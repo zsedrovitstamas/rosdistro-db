@@ -423,6 +423,10 @@ python3-opencv:
   windows:
     pip:
       packages: [opencv-python]
+python3-opengl:
+  windows:
+    pip:
+      packages: [PyOpenGL]
 python3-paramiko:
   windows:
     pip:
