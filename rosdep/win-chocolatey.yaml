@@ -500,8 +500,6 @@ sdl:
   windows: [sdl]
 sdl-image:
   windows: [sdl_image]
-suitesparse:
-  windows: [suitesparse]
 tinyxml:
   windows: [tinyxml]
 tinyxml2:
