@@ -51,6 +51,61 @@ gtk3:
       packages: [gtk3]
 libazure-iot-sdk-c:
   windows: [libazure-iot-sdk-c]
+libboost-dev:
+  windows:
+    chocolatey:
+      depends: [boost]
+      packages: []
+libboost-chrono-dev:
+  windows:
+    chocolatey:
+      depends: [boost]
+      packages: []
+libboost-filesystem-dev:
+  windows:
+    chocolatey:
+      depends: [boost]
+      packages: []
+libboost-iostreams-dev:
+  windows:
+    chocolatey:
+      depends: [boost]
+      packages: []
+libboost-program-options:
+  windows:
+    chocolatey:
+      depends: [boost]
+      packages: []
+libboost-program-options-dev:
+  windows:
+    chocolatey:
+      depends: [boost]
+      packages: []
+libboost-python:
+  windows:
+    chocolatey:
+      depends: [boost]
+      packages: []
+libboost-random:
+  windows:
+    chocolatey:
+      depends: [boost]
+      packages: []
+libboost-random-dev:
+  windows:
+    chocolatey:
+      depends: [boost]
+      packages: []
+libboost-system-dev:
+  windows:
+    chocolatey:
+      depends: [boost]
+      packages: []
+libboost-thread-dev:
+  windows:
+    chocolatey:
+      depends: [boost]
+      packages: []
 libcairo2-dev:
   windows: [cairo]
 libccd-dev:
