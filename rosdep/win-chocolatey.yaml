@@ -24,6 +24,8 @@ cppunit:
   windows: [cppunit]
 curl:
   windows: [libcurl]
+dfu-util:
+  windows: [dfu-util]
 eigen:
   windows: [eigen]
 gazebo:
@@ -571,5 +573,7 @@ wxpython:
       packages: [wxPython]
 yaml-cpp:
   windows: [yaml-cpp]
+zadig:
+  windows: [zadig]
 zlib:
   windows: [zlib]

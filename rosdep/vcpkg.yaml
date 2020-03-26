@@ -24,3 +24,11 @@ suitesparse:
   windows:
     vcpkg:
       packages: [suitesparse]
+geographiclib:
+  windows:
+    vcpkg:
+      packages: [geographiclib]
+geographiclib-tools:
+  windows:
+    vcpkg:
+      packages: [geographiclib]
