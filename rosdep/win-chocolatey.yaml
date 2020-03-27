@@ -63,6 +63,11 @@ libboost-chrono-dev:
     chocolatey:
       depends: [boost]
       packages: []
+libboost-date-time-dev:
+  windows:
+    chocolatey:
+      depends: [boost]
+      packages: []
 libboost-filesystem-dev:
   windows:
     chocolatey:
@@ -98,6 +103,11 @@ libboost-random-dev:
     chocolatey:
       depends: [boost]
       packages: []
+libboost-regex-dev:
+  windows:
+    chocolatey:
+      depends: [boost]
+      packages: []
 libboost-system-dev:
   windows:
     chocolatey:
@@ -125,6 +135,8 @@ libflann:
   windows: [libflann]
 libflann-dev:
   windows: [libflann]
+libfltk-dev:
+  windows: []
 libgazebo9-dev:
   windows: [gazebo9]
 libgflags-dev:
@@ -204,6 +216,8 @@ liburdfdom-dev:
   windows: [urdfdom]
 liburdfdom-headers-dev:
   windows: [urdfdom_headers]
+libx11-dev:
+  windows: []
 libzmq3-dev:
   windows: [cppzmq]
 log4cxx:
@@ -212,6 +226,8 @@ lua5.2-dev:
   windows: [lua]
 lz4:
   windows: [lz4]
+netpbm:
+  windows: []
 octomap:
   windows:
     chocolatey:
@@ -255,6 +271,8 @@ python-backports.ssl-match-hostname:
   windows:
     pip:
       packages: [backports.ssl_match_hostname]
+python-bluez:
+  windows: []
 python-bson:
   windows:
     pip:
@@ -276,6 +294,8 @@ python-crypto:
     pip:
       depends: [vcpython]
       packages: [pycrypto]
+python-cwiid:
+  windows: []
 python-dateutil:
   windows:
     pip:
@@ -381,6 +401,10 @@ python-rosdep:
   windows:
     pip:
       packages: [rosdep]
+python-rosdep-modules:
+  windows:
+    pip:
+      packages: [rosdep]
 python-rospkg:
   windows:
     pip:
@@ -389,6 +413,10 @@ python-serial:
   windows:
     pip:
       packages: [pyserial]
+python-setuptools:
+  windows:
+    pip:
+      packages: [setuptools]
 python-sip:
   windows: [sip]
 python-sphinx:
@@ -428,6 +456,10 @@ python3-coverage:
   windows:
     pip:
       packages: [coverage]
+python3-cryptography:
+  windows:
+    pip:
+      packages: [cryptography]
 python3-defusedxml:
   windows:
     pip:
@@ -557,6 +589,8 @@ sdl:
   windows: [sdl]
 sdl-image:
   windows: [sdl_image]
+tango-icon-theme:
+  windows: []
 tinyxml:
   windows: [tinyxml]
 tinyxml2:
