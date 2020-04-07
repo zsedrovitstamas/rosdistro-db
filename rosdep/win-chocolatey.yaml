@@ -479,7 +479,7 @@ python3-gnupg:
 python3-pygraphviz:
   windows:
     pip:
-      packages: [pygraphviz]
+      packages: []
 python3-matplotlib:
   windows:
     pip:
