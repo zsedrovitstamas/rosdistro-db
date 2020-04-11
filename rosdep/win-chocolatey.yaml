@@ -51,8 +51,6 @@ gtk3:
     chocolatey:
       depends: [libpng-dev, bzip2]
       packages: [gtk3]
-libazure-iot-sdk-c:
-  windows: [libazure-iot-sdk-c]
 libboost-dev:
   windows:
     chocolatey:
