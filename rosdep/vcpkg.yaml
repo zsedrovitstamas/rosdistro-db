@@ -36,3 +36,7 @@ libazure-iot-sdk-c:
   windows:
     vcpkg:
       packages: [azure-iot-sdk-c]
+graphicsmagick:
+  windows:
+    vcpkg:
+      packages: [graphicsmagick]
