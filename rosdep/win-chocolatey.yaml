@@ -151,6 +151,8 @@ liblapack-dev:
   windows: [clapack, openblas]
 libogg:
   windows: [libogg]
+libogre:
+  windows: [ogre]
 libogre-dev:
   windows: [ogre]
 libopencv-dev:
@@ -159,6 +161,8 @@ libopenni-dev:
   windows: [OpenNI]
 libopenni2-dev:
   windows: [OpenNI2]
+liborocos-kdl-dev:
+  windows: [orocos_kdl]
 libpcl-all:
   windows:
     chocolatey:
