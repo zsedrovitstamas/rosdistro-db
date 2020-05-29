@@ -32,6 +32,8 @@ gazebo:
   windows: [gazebo9]
 gazebo9:
   windows: [gazebo9]
+libgazebo11-dev:
+  windows: [gazebo9]
 git:
   windows: [git]
 glut:
@@ -162,6 +164,8 @@ libopenni-dev:
 libopenni2-dev:
   windows: [OpenNI2]
 liborocos-kdl-dev:
+  windows: [orocos_kdl]
+liborocos-kdl:
   windows: [orocos_kdl]
 libpcl-all:
   windows:
@@ -568,6 +572,10 @@ python3-rosdep:
     pip:
       packages: [rosdep]
 python3-rospkg:
+  windows:
+    pip:
+      packages: [rospkg]
+python3-rospkg-modules:
   windows:
     pip:
       packages: [rospkg]
