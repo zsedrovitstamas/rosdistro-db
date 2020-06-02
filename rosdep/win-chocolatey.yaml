@@ -564,6 +564,10 @@ python3-pytest:
   windows:
     pip:
       packages: [pytest]
+python3-pytest-mock:
+  windows:
+    pip:
+      packages: [pytest-mock]
 python3-qt5-bindings:
   windows:
     chocolatey:
@@ -583,6 +587,10 @@ python3-rosdep:
   windows:
     pip:
       packages: [rosdep]
+python3-rosdistro-modules:
+  windows:
+    pip:
+      packages: [rosdistro]
 python3-rospkg:
   windows:
     pip:
