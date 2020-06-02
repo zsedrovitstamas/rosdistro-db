@@ -173,6 +173,8 @@ libopenni-dev:
   windows: [OpenNI]
 libopenni2-dev:
   windows: [OpenNI2]
+libopensplice69:
+  windows: []
 liborocos-kdl-dev:
   windows: [orocos_kdl]
 liborocos-kdl:
@@ -602,6 +604,8 @@ qt5-qmake:
 qtbase5-dev:
   windows: [qt5-sdk]
 rsync:
+  windows: []
+rti-connext-dds-5.3.1:
   windows: []
 sbcl:
   windows: [sbcl]
