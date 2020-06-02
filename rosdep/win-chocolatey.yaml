@@ -494,6 +494,10 @@ python3-gnupg:
   windows:
     pip:
       packages: [gnupg]
+python3-ifcfg:
+  windows:
+    pip:
+      packages: [ifcfg]
 python3-pygraphviz:
   windows:
     pip:
@@ -502,6 +506,10 @@ python3-matplotlib:
   windows:
     pip:
       packages: [matplotlib]
+python3-mypy:
+  windows:
+    pip:
+      packages: [mypy]
 python3-lark-parser:
   windows:
     pip:
