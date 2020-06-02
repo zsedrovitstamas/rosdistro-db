@@ -24,10 +24,20 @@ cppunit:
   windows: [cppunit]
 curl:
   windows: [libcurl]
+cyclonedds:
+  windows:
+    chocolatey:
+      depends: [openssl]
+      packages: []
 dfu-util:
   windows: [dfu-util]
 eigen:
   windows: [eigen]
+fastrtps:
+  windows:
+    chocolatey:
+      depends: [openssl, tinyxml2]
+      packages: []
 gazebo:
   windows: [gazebo9]
 gazebo9:
@@ -163,6 +173,8 @@ libopenni-dev:
   windows: [OpenNI]
 libopenni2-dev:
   windows: [OpenNI2]
+libopensplice69:
+  windows: []
 liborocos-kdl-dev:
   windows: [orocos_kdl]
 liborocos-kdl:
@@ -482,6 +494,10 @@ python3-gnupg:
   windows:
     pip:
       packages: [gnupg]
+python3-ifcfg:
+  windows:
+    pip:
+      packages: [ifcfg]
 python3-pygraphviz:
   windows:
     pip:
@@ -490,6 +506,10 @@ python3-matplotlib:
   windows:
     pip:
       packages: [matplotlib]
+python3-mypy:
+  windows:
+    pip:
+      packages: [mypy]
 python3-lark-parser:
   windows:
     pip:
@@ -552,6 +572,10 @@ python3-pytest:
   windows:
     pip:
       packages: [pytest]
+python3-pytest-mock:
+  windows:
+    pip:
+      packages: [pytest-mock]
 python3-qt5-bindings:
   windows:
     chocolatey:
@@ -571,6 +595,10 @@ python3-rosdep:
   windows:
     pip:
       packages: [rosdep]
+python3-rosdistro-modules:
+  windows:
+    pip:
+      packages: [rosdistro]
 python3-rospkg:
   windows:
     pip:
@@ -592,6 +620,8 @@ qt5-qmake:
 qtbase5-dev:
   windows: [qt5-sdk]
 rsync:
+  windows: []
+rti-connext-dds-5.3.1:
   windows: []
 sbcl:
   windows: [sbcl]
