@@ -24,10 +24,20 @@ cppunit:
   windows: [cppunit]
 curl:
   windows: [libcurl]
+cyclonedds:
+  windows:
+    chocolatey:
+      depends: [openssl]
+      packages: []
 dfu-util:
   windows: [dfu-util]
 eigen:
   windows: [eigen]
+fastrtps:
+  windows:
+    chocolatey:
+      depends: [openssl, tinyxml2]
+      packages: []
 gazebo:
   windows: [gazebo9]
 gazebo9:
