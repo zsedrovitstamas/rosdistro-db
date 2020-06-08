@@ -303,6 +303,10 @@ python-catkin-pkg:
   windows:
     pip:
       packages: [catkin_pkg]
+python-catkin-pkg-modules:
+  windows:
+    pip:
+      packages: [catkin_pkg]
 python-coverage:
   windows:
     pip:
