@@ -175,6 +175,8 @@ libopenni2-dev:
   windows: [OpenNI2]
 libopensplice69:
   windows: []
+orocos_kdl:
+  windows: [orocos_kdl]
 liborocos-kdl-dev:
   windows: [orocos_kdl]
 liborocos-kdl:
