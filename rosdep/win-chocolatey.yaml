@@ -103,6 +103,11 @@ libboost-python:
     chocolatey:
       depends: [boost]
       packages: []
+libboost-python-dev:
+  windows:
+    chocolatey:
+      depends: [boost]
+      packages: []
 libboost-random:
   windows:
     chocolatey:
